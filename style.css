@@ -1,0 +1,21 @@
+  h3
+  {
+    font-size: 25px !important;
+  }
+  canvas {
+    border:2px dashed black;
+    animation-name: exemplo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+.btn-success:hover{
+  background-color: firebrick;
+}
+@keyframes exemplo{
+  from{
+    box-shadow: 1px 1px 38px peru;
+  }
+  to{
+box-shadow: 1px 1px 38px crimson;
+  }
+}
